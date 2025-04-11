@@ -1,8 +1,8 @@
 # Hubblemind_project
 
-Below is a README file for the provided Python code, which performs data preprocessing, exploratory data analysis (EDA), visualization, and machine learning on an obesity dataset. The README is designed to be clear, concise, and informative, providing an overview of the project, its objectives, and instructions for running the code.
-Obesity Dataset Analysis and Classification
-Overview
+
+
+# Overview
 This project analyzes the Obesity Dataset to explore factors influencing obesity levels and predict obesity categories using machine learning models. The dataset contains demographic, lifestyle, and health-related features, with the target variable NObeyesdad indicating obesity levels (e.g., Normal Weight, Obesity Type I, etc.).
 The code includes:
 Data Preprocessing: Handling missing values, encoding categorical variables, capping outliers, and normalizing continuous features.
@@ -18,7 +18,7 @@ Target: Obesity level (NObeyesdad), with categories like Normal Weight, Overweig
 Prerequisites
 To run the code, you need the following installed:
 Python 3.7+
-Libraries:
+# Libraries:
 pandas
 numpy
 scikit-learn
@@ -30,8 +30,8 @@ pip install pandas numpy scikit-learn seaborn matplotlib
 Project Structure
 ObesityDataSet_raw_and_data_sinthetic.csv: Input dataset (ensure it is placed in the specified directory).
 obesity_analysis.py: Main Python script containing all preprocessing, EDA, visualization, and ML code.
-README.md: This file, providing project documentation.
-How to Run
+
+# How to Run
 Prepare the Dataset:
 Place the ObesityDataSet_raw_and_data_sinthetic.csv file in the directory specified in the code (e.g., C:\\Users\\wendi\\Downloads\\).
 Update the file path in the code if necessary:
